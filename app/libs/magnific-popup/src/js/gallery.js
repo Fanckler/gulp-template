@@ -43,7 +43,7 @@ $.magnificPopup.registerModule('gallery', {
 			_mfpOn(OPEN_EVENT+ns, function() {
 
 				if(gSt.navigateByImgClick) {
-					mfp.wrap.on('click'+ns, '.mfp-img', function() {
+					mfp.wrap.on('click'+ns, '.mfp-images', function() {
 						if(mfp.items.length > 1) {
 							mfp.next();
 							return false;
@@ -148,7 +148,7 @@ $.magnificPopup.registerModule('gallery', {
 			_mfpTrigger('LazyLoad', item);
 
 			if(item.type === 'image') {
-				item.img = $('<img class="mfp-img" />').on('load.mfploader', function() {
+				item.img = $('<images class="mfp-images" />').on('load.mfploader', function() {
 					item.hasSize = true;
 				}).on('error.mfploader', function() {
 					item.hasSize = true;

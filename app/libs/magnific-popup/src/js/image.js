@@ -21,7 +21,7 @@ $.magnificPopup.registerModule('image', {
 		markup: '<div class="mfp-figure">'+
 					'<div class="mfp-close"></div>'+
 					'<figure>'+
-						'<div class="mfp-img"></div>'+
+						'<div class="mfp-images"></div>'+
 						'<figcaption>'+
 							'<div class="mfp-bottom-bar">'+
 								'<div class="mfp-title"></div>'+
@@ -185,10 +185,10 @@ $.magnificPopup.registerModule('image', {
 				imgSt = mfp.st.image;
 
 
-			var el = template.find('.mfp-img');
+			var el = template.find('.mfp-images');
 			if(el.length) {
 				var img = document.createElement('img');
-				img.className = 'mfp-img';
+				img.className = 'mfp-images';
 				if(item.el && item.el.find('img').length) {
 					img.alt = item.el.find('img').attr('alt');
 				}

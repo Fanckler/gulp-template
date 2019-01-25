@@ -293,7 +293,7 @@ MagnificPopup.prototype = {
 			mfp.wrap.addClass(_wrapClasses);
 
 
-		// this triggers recalculation of layout, so we get it once to not to trigger twice
+		// this triggers recalculation of base, so we get it once to not to trigger twice
 		var windowHeight = mfp.wH = _window.height();
 
 		
@@ -771,7 +771,7 @@ MagnificPopup.prototype = {
 						if(el.is('img')) {
 							el.attr('src', value);
 						} else {
-							el.replaceWith( $('<img>').attr('src', value).attr('class', el.attr('class')) );
+							el.replaceWith( $('<images>').attr('src', value).attr('class', el.attr('class')) );
 						}
 					} else {
 						el.attr(arr[1], value);

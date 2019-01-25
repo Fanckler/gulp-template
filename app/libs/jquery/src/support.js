@@ -43,13 +43,13 @@ jQuery( function() {
 		// Support: IE<8
 		// Check if natively block-level elements act like inline-block
 		// elements when setting their display to 'inline' and giving
-		// them layout
+		// them base
 		div.style.cssText = "display:inline;margin:0;border:0;padding:1px;width:1px;zoom:1";
 
 		support.inlineBlockNeedsLayout = val = div.offsetWidth === 3;
 		if ( val ) {
 
-			// Prevent IE 6 from affecting layout for positioned elements #11048
+			// Prevent IE 6 from affecting base for positioned elements #11048
 			// Prevent IE from shrinking the body in IE 7 mode #12869
 			// Support: IE<8
 			body.style.zoom = 1;

@@ -310,7 +310,7 @@ MagnificPopup.prototype = {
 			mfp.wrap.addClass(_wrapClasses);
 
 
-		// this triggers recalculation of layout, so we get it once to not to trigger twice
+		// this triggers recalculation of base, so we get it once to not to trigger twice
 		var windowHeight = mfp.wH = _window.height();
 
 		
@@ -788,7 +788,7 @@ MagnificPopup.prototype = {
 						if(el.is('img')) {
 							el.attr('src', value);
 						} else {
-							el.replaceWith( $('<img>').attr('src', value).attr('class', el.attr('class')) );
+							el.replaceWith( $('<images>').attr('src', value).attr('class', el.attr('class')) );
 						}
 					} else {
 						el.attr(arr[1], value);
@@ -1132,7 +1132,7 @@ $.magnificPopup.registerModule('image', {
 		markup: '<div class="mfp-figure">'+
 					'<div class="mfp-close"></div>'+
 					'<figure>'+
-						'<div class="mfp-img"></div>'+
+						'<div class="mfp-images"></div>'+
 						'<figcaption>'+
 							'<div class="mfp-bottom-bar">'+
 								'<div class="mfp-title"></div>'+
@@ -1296,10 +1296,10 @@ $.magnificPopup.registerModule('image', {
 				imgSt = mfp.st.image;
 
 
-			var el = template.find('.mfp-img');
+			var el = template.find('.mfp-images');
 			if(el.length) {
 				var img = document.createElement('img');
-				img.className = 'mfp-img';
+				img.className = 'mfp-images';
 				if(item.el && item.el.find('img').length) {
 					img.alt = item.el.find('img').attr('alt');
 				}
@@ -1697,7 +1697,7 @@ $.magnificPopup.registerModule('gallery', {
 			_mfpOn(OPEN_EVENT+ns, function() {
 
 				if(gSt.navigateByImgClick) {
-					mfp.wrap.on('click'+ns, '.mfp-img', function() {
+					mfp.wrap.on('click'+ns, '.mfp-images', function() {
 						if(mfp.items.length > 1) {
 							mfp.next();
 							return false;
@@ -1802,7 +1802,7 @@ $.magnificPopup.registerModule('gallery', {
 			_mfpTrigger('LazyLoad', item);
 
 			if(item.type === 'image') {
-				item.img = $('<img class="mfp-img" />').on('load.mfploader', function() {
+				item.img = $('<images class="mfp-images" />').on('load.mfploader', function() {
 					item.hasSize = true;
 				}).on('error.mfploader', function() {
 					item.hasSize = true;

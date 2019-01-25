@@ -1,0 +1,7 @@
+- var slides = ["images/slider/slide1.jpg", "images/slider/slide2.jpg", "images/slider/slide3.jpg", "images/slider/slide4.jpg", "images/slider/slide5.jpg"]
+.slides
+    .slides__wrapper
+        each item, i in slides
+            .slides__slide(style="background-image: url("+item+")")
+                img(src=item,).slides__image
+

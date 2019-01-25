@@ -1,0 +1,46 @@
+.button {
+  padding: 10px 15px;
+  text-align: center;
+  color: #fff;
+  background-color: slateblue;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 44px;
+  &--small {
+    width: 150px;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    left: auto;
+    right: 0%;
+    top: 0;
+    background: rgba(0,0,0, .3);
+    width: 0%;
+    height: 100%;
+    transition: all .2s linear;
+    z-index: 0;
+  }
+  &:after {
+    content: attr(data-text);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 44px;
+    text-align: center;
+    color: #ffff;
+    z-index: 2;
+  }
+  &:hover {
+    color: #ffff;
+    text-decoration: none;
+    &:before {
+      width: 100%;
+      right: auto;
+      left: 0;
+    }
+  }
+}

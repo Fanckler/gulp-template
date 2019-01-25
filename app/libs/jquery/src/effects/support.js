@@ -31,7 +31,7 @@ define( [
 		body.appendChild( container ).appendChild( div );
 
 		// Support: IE6
-		// Check if elements with layout shrink-wrap their children
+		// Check if elements with base shrink-wrap their children
 		if ( typeof div.style.zoom !== "undefined" ) {
 
 			// Reset CSS: box-sizing; display; margin; border

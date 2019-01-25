@@ -1,0 +1,190 @@
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  padding: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0 1.5px 2px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1.5px 2px rgba(0, 0, 0, 0.4); }
+  .header__menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-basis: 200px;
+        -ms-flex-preferred-size: 200px;
+            flex-basis: 200px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header .logo__image {
+    -webkit-animation: rotate 40s infinite linear;
+            animation: rotate 40s infinite linear; }
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(3600deg);
+            transform: rotate(3600deg); } }
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(3600deg);
+            transform: rotate(3600deg); } }
+
+.button {
+  padding: 10px 15px;
+  text-align: center;
+  color: #fff;
+  background-color: slateblue;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 44px; }
+  .button--small {
+    width: 150px; }
+  .button:before {
+    content: '';
+    position: absolute;
+    left: auto;
+    right: 0%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 0%;
+    height: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    z-index: 0; }
+  .button:after {
+    content: attr(data-text);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 44px;
+    text-align: center;
+    color: #ffff;
+    z-index: 2; }
+  .button:hover {
+    color: #ffff;
+    text-decoration: none; }
+    .button:hover:before {
+      width: 100%;
+      right: auto;
+      left: 0; }
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  -webkit-box-shadow: 0.5px 1px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0.5px 1px 5px rgba(0, 0, 0, 0.2);
+  position: relative; }
+  .hamburger__line {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    height: 2px;
+    background: darkslategray; }
+    .hamburger__line:before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: -5px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+      background: inherit;
+      -webkit-transition: all .2s ease-in;
+      -o-transition: all .2s ease-in;
+      transition: all .2s ease-in; }
+    .hamburger__line:after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 5px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+      background: inherit;
+      -webkit-transition: all .2s ease-in;
+      -o-transition: all .2s ease-in;
+      transition: all .2s ease-in; }
+  .hamburger:hover .hamburger__line:before {
+    top: -6.5px; }
+  .hamburger:hover .hamburger__line:after {
+    top: 6.5px; }
+
+.logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px; }
+  .logo__image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto; }
+
+.slides {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; }
+  .slides__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0; }
+    .slides__wrapper div {
+      height: 100%; }
+  .slides__slide {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .slides__image {
+    max-width: 100%;
+    opacity: 0; }
+
+body {
+  background: silver; }
