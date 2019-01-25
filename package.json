@@ -1,7 +1,7 @@
 {
-  "name": "myproject",
+  "name": "skelet",
   "version": "1.0.0",
-  "description": "My First Gulp Project",
+  "description": "Gulp template",
   "main": "index.js",
   "scripts": {
     "start": "gulp",

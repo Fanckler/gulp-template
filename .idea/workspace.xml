@@ -2,54 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d814f240-18d0-4a92-ad78-7dfbaa2a513e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/components/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/base/main.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/button/button.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/button/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/hamburger/hamburger.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/hamburger/hamburger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/logo/logo.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/logo/logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/main_slider/main_slider.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/main_slider/main_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/layouts/header/header.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/layouts/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/libs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/libs.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/libs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/jquery/src/css/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/jquery/src/css/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/jquery/src/effects/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/jquery/src/effects/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/jquery/src/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/jquery/src/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/magnific-popup/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/libs.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/libs.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/libs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -85,17 +37,26 @@
       <file leaf-file-name="main_slider.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/components/main_slider/main_slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="285">
               <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -164,7 +125,6 @@
         <option value="$PROJECT_DIR$/app/templates/components/button/button.scss" />
         <option value="$PROJECT_DIR$/app/templates/layouts/header/header.pug" />
         <option value="$PROJECT_DIR$/app/templates/components/button/button.pug" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/templates/components/logo/logo.scss" />
         <option value="$PROJECT_DIR$/app/templates/layouts/header/header.scss" />
         <option value="$PROJECT_DIR$/app/index.pug" />
@@ -175,6 +135,7 @@
         <option value="$PROJECT_DIR$/app/sass/app.scss" />
         <option value="$PROJECT_DIR$/app/templates/components/main_slider/main_slider.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -267,8 +228,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="gulp-lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gulp-lesson" type="462c0819:PsiDirectoryNode" />
+              <item name="gulp-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gulp-template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,27 +318,27 @@
       <workItem from="1548356097034" duration="386000" />
       <workItem from="1548356498095" duration="9130000" />
       <workItem from="1548446027166" duration="7931000" />
+      <workItem from="1548454292873" duration="234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17447000" />
+    <option name="totallyTimeSpent" value="17681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7644991" visible="true" weight="0.2361111" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="npm" order="4" sideWeight="0.23352166" side_tool="true" visible="true" weight="0.2361111" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37382075" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900944" />
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76647836" visible="true" weight="0.2361111" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
+      <window_info id="npm" order="4" sideWeight="0.23550087" side_tool="true" visible="true" weight="0.2361111" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37382075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32900944" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -386,6 +347,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,6 +362,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -414,13 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/components/developmentBy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/developmentBy.js" />
     <entry file="file://$PROJECT_DIR$/app/templates/base/main.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -431,13 +394,7 @@
     <entry file="file://$PROJECT_DIR$/app/css/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -470,13 +427,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/libs.css" />
     <entry file="file://$PROJECT_DIR$/app/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/app/templates/layouts/form.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="226" selection-start-line="1" selection-start-column="226" selection-end-line="1" selection-end-column="226" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/layouts/form.pug" />
     <entry file="file://$PROJECT_DIR$/../../Development/Gulp &amp; GulpProjects/aww_project2/src/js/lib/sayHello.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -509,12 +460,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/components/developmentBy.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js" />
+    <entry file="file://$PROJECT_DIR$/app/js/components/developmentBy.js" />
     <entry file="file://$PROJECT_DIR$/app/libs/bootstrap/build/rollup.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -522,9 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js" />
     <entry file="file://$PROJECT_DIR$/app/js/components/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -567,20 +512,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/layouts/section.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/layouts/section.pug" />
     <entry file="file://$PROJECT_DIR$/app/templates/components/logo/logo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -662,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/components/main_slider/main_slider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="285">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
@@ -671,6 +603,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
