@@ -1,0 +1,10 @@
+- var state = true;
+
+.about
+    .about__image
+        if state == true
+            img(src="images/slider/slide1.jpg")
+        else
+            img(src="images/slider/slide2.jpg")
+    include ../../components/button/button
+    +button('Show More')

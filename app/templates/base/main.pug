@@ -6,12 +6,16 @@ html(lang='en')
         meta(name='viewport', content='width=1024, initial-scale=1')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
 
-        title Document
+        title
+            block title
+
         link(rel='stylesheet', href='css/app.min.css')
-        link(rel='stylesheet', href='css/index.css')
+        block css
     body
         block header
         block section
+        block about
+        block footer
 
         script(src='js/libs.min.js')
         script(src='js/components/functions.js')
