@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "ftp": "gulp deploy"
   },
   "author": "Sergiy Omelchenko",
   "license": "ISC",
@@ -23,11 +24,9 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
     "gulp-uglifyjs": "^0.6.2",
-    "imagemin-pngquant": "^6.0.0"
-  },
-  "dependencies": {
-    "gulp-imports": "0.0.3",
-    "gulp-jshint": "^2.1.0",
+    "gulp-util": "^3.0.8",
+    "imagemin-pngquant": "^6.0.0",
+    "vinyl-ftp": "^0.6.1",
     "gulp-pug": "^4.0.1"
   }
 }

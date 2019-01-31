@@ -16,7 +16,6 @@ function sayHello() {
 
 $(document).ready(function () {
 
-
     $('.slides__wrapper').slick({
         dots: true,
         infinite: true,

@@ -10,7 +10,10 @@ var gulp       = require('gulp'), // Подключаем Gulp
 	pngquant     = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
 	cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
 	autoprefixer = require('gulp-autoprefixer'),// Подключаем библиотеку для автоматического добавления префиксов
-	pug = require('gulp-pug'); // подключаем шаблонизатор
+	pug = require('gulp-pug'), // подключаем шаблонизатор
+	gutil = require( 'gulp-util' ),
+	ftp = require('vinyl-ftp');
+
 
 gulp.task('sass', function() { // Создаем таск Sass
 	return gulp.src('app/sass/*.scss') // Берем источник
@@ -27,7 +30,6 @@ gulp.task('pug', function(){
         .pipe(browserSync.reload({stream: true}));
 });
 
-
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
 	browserSync({ // Выполняем browserSync
 		server: { // Определяем параметры сервера
@@ -36,7 +38,6 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 		notify: false // Отключаем уведомления
 	});
 });
-
 
 gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
@@ -102,3 +103,23 @@ gulp.task('clear', function (callback) {
 })
 
 gulp.task('default', ['watch']);
+
+gulp.task( 'deploy', function () {
+    var conn = ftp.create( {
+        host:     '',
+        user:     '',
+        password: '',
+        parallel: 10,
+        log:      gutil.log
+    } );
+
+    var globs = [
+        'dist/**'
+    ];
+
+
+    return gulp.src( globs, { base: './dist/', buffer: false } )
+        .pipe( conn.newer( '/' ) ) // only upload newer files
+        .pipe( conn.dest( '/' ) );
+
+} );
